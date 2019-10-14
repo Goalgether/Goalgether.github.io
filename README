@@ -1,12 +1,26 @@
 Project Name: Goalgether
 
 Project Description: 
-· Listings free and payed
-· Post a goal you want to reach and communicate with others to work together on it
-· Post a goal you have reached and help others reach it (they pay you) 
-· Develop a system to choose the best possible mentor based on your situation
-· Built in messaging (group chats etc)
-· Map view of listings near you
+Goal sharing app where poeple come together to complete goals. 
+
+Steps on how it works for the user:
+STEP 1: Make a profile → Name, Goals, Location…(Favourite categories)
+
+STEP 2: Make a Goal → Goal (steps to complete goal), Location, Number of people
+		It shows up when people are looking for goals and yours is in their category
+ 		They can pick your goal and join your group chat
+OR
+
+STEP 2: Pick a Goal
+Swipe through people’s goals or company posts (similar goals to what you put in) 
+
+	Option 1: (pick someone’s goal)
+	Automatically creates a group chat when enough people swipe on the goal
+	People per group chat is set by creator of goal
+
+	Option 2:(pick a sponsorship goal)
+	Redirected to company profile where you fill out your info 
+	Pay for tickets to event or whatever the company’s steps are to get your points
 
 
 Group Members:
