@@ -1,0 +1,24 @@
+Style Guidelines SEG group 14
+
+Overall look and feel: 
+    Our goal is to motivate and energize the user. 
+    We will have a simple aestetic but also bold to captue attention. 
+
+Colours: 
+    After some reseaarch, we found that the most motivating and energizing color is yellow. 
+    Colours that go well with yellow are blue, gray and black. 
+    We found this nice colour palette that includes these colours:
+    #080808 #F7D624 #FBC702 #D5CABB #308EAB
+
+Fonts: 
+    A nice and aesthetic font is 'Candara'. 
+    A bonus to this font is that it is web safe.
+    We also chose it sans-serif.
+
+Links: 
+    Our links will not have an underline but they will change colour or 
+    become bold when the user hovers over it.
+
+Buttons:
+    Our buttons will be rectangular with rounded edges.
+    They will become darker, change colour or gain a shadow when the user hovers over them. 
