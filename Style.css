@@ -54,6 +54,10 @@ body {
     color:#fff;
     background-color:transparent;
 }
+.nav a:hover{
+    color: red;
+    font-weight: bold;
+}
 .logo{
     color:#fff;
     padding-left:10px;
