@@ -55,8 +55,10 @@ body {
     background-color:transparent;
 }
 .nav a:hover{
-    color: red;
-    font-weight: bold;
+    color: #F7D624
+    /*color: #09899d;*/
+
+    /*font-weight: bold*/
 }
 .logo{
     color:#fff;
