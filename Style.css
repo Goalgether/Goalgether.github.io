@@ -49,7 +49,6 @@ body {
     opacity:0.5;
 }
 .navbar{
-    height: max-content;
     overflow: hidden;
     position: fixed;
     top:0;
@@ -58,7 +57,8 @@ body {
     display:flex;
     color:#fff;
     background-color:transparent;
-    padding-bottom: 20px;
+    padding-bottom: 10%;
+
     
 }
 
@@ -69,6 +69,8 @@ body {
     /*font-weight: bold*/
 }
 .nav{
+    height: max-content;
+    text-align: center;
     float: right;
     z-index:2;
     position:absolute;
@@ -79,26 +81,31 @@ body {
     flex-wrap: wrap;
     background-color: transparent;
     
-    top:8px;
+    top:0px;
     right:0px;
     color:#fff;
     list-style:none;
-    font-size:10px;   
-    padding: 14px 30px;
+    font-size:3vw;   
+    padding:0;
+    margin-top: 0px;
+    border-top: 0;
+    
     
 }
 .logo{
+    height: MA;
+    width: max-content;
     float: left;
     color:#fff;
-    padding-left:10px;
-    font-size: 30px;
+    padding-left:2%;
+    font-size: 3vw;
     line-height:20px
     
 }
 .sign-in{
     background:#36b5c9;
     color:#fff;
-    font-size:1.5rem;
+    font-size:1.5vw;
     text-decoration: none;  
     background-color: transparent;
     border: 2px solid #fff;
@@ -106,7 +113,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     box-sizing: border-box;
-    padding: .5rem 1.5rem;
+    padding: .5vw 2vw;
 }
 
 .sign-in:hover{
@@ -189,8 +196,7 @@ body {
 }
 
 a {
-    padding-left:20px;
-    font-size:1.5rem;
+    font-size:1.5vw;
     margin: 20px;
     text-decoration: none;
     color: #fff;
