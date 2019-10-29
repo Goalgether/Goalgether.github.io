@@ -105,7 +105,7 @@ body {
 .sign-in{
     background:#36b5c9;
     color:#fff;
-    font-size:1.5vw;
+    font-size:calc(10px+ 0.75vw);
     text-decoration: none;  
     background-color: transparent;
     border: 2px solid #fff;
@@ -130,11 +130,12 @@ body {
     font-size:7vw;
     margin-bottom:0px;
     margin-top:260px;
+    
 
 }
 
 .header-content p{
-    font-size:3vw;
+    font-size:30px+2vw;
     display:block;
     padding-bottom:2rem;
 }
@@ -143,7 +144,7 @@ body {
     background:#09899d;
     color:#fff;
     font-size:2rem;
-    padding: 1rem 5rem;
+    padding: 1% 5%;
     text-decoration: none;
     border-radius:4px;
     -webkit-transition-duration: 0.2s,0.2s;
@@ -196,7 +197,8 @@ body {
 }
 
 a {
-    font-size:1.5vw;
+    
+    font-size:calc(10px+ 0.75vw);
     margin: 20px;
     text-decoration: none;
     color: #fff;
