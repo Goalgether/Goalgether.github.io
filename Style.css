@@ -126,6 +126,8 @@ body {
     padding: 1rem 5rem;
     text-decoration: none;
     border-radius:4px;
+    -webkit-transition-duration: 0.2s,0.2s;
+    transition-duration: 0.2s,0.2s;
     
 }
 
