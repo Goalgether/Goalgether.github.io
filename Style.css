@@ -117,8 +117,8 @@ body {
 }
 
 .sign-in:hover{
-    border: 3px solid #F7D624;
-    text-decoration: bold;
+    border-color: #F7D620;
+    
 }
 
 
