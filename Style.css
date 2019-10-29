@@ -130,6 +130,7 @@ body {
     font-size:7vw;
     margin-bottom:0px;
     margin-top:260px;
+    text-align: center;
     
 
 }
@@ -138,8 +139,10 @@ body {
     font-size:30px+2vw;
     display:block;
     padding-bottom:2rem;
+
 }
 .get-started{
+
     display: block;
     background:#09899d;
     color:#fff;
