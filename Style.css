@@ -58,7 +58,7 @@ body {
     color:#fff;
     background-color:transparent;
     padding-bottom: 10%;
-
+    margin-top: calc(20px+0.1vw);
     
 }
 
@@ -69,7 +69,8 @@ body {
     /*font-weight: bold*/
 }
 .nav{
-    height: max-content;
+    overflow: hidden;
+
     text-align: center;
     float: right;
     z-index:2;
@@ -114,6 +115,7 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
     padding: .5vw 2vw;
+    
 }
 
 .sign-in:hover{
