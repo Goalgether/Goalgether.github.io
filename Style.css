@@ -194,7 +194,7 @@ body {
     z-index:-1;
 }
 
-@media(max-width:960px){
+@media(max-width:961px){
     .container{
         padding-right:3rem;
         padding-left:3rem;
