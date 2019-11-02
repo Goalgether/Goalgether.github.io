@@ -177,6 +177,10 @@ img {
     margin-bottom: 15px;
 }
 
+.mb-0{
+    margin-bottom: 0px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -203,6 +207,12 @@ img {
 
 .ml-100 {
     margin-left: 100px;
+}
+.ml-150{
+    margin-left: 150px;
+}
+.ml-200{
+    margin-left: 200px;
 }
 
 #preloader {
