@@ -1030,6 +1030,12 @@ span.accor-open {
 .bradcumbContent h2 {
     color: #fff;
     font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.pricingDescription h3{
+    color: #fff;
+    font-size: 30px;
 }
 
 .bradcumbContent .breadcrumb {
