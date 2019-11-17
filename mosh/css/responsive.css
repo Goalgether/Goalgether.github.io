@@ -255,23 +255,29 @@
 @media (min-width: 480px) and (max-width: 767px) {
     .welcome_area,
     .single-hero-slide {
-        height: 900px;
-        
+        height: 800px;
+        padding-top: 100px;
     }
+    
     .clients-logo-area > a > img {
         max-width: 75px;
         height: auto;
         margin: 0 15px;
     }
-
+    .mosh-service-slides{
+        padding-top: 200px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     .welcome_area,
     .single-hero-slide {
         height: 900px;
+        padding-top: 100px;
     }
-
+    .mosh-service-slides{
+        padding-top: 200px;
+    }
     .hero-slide-content h2 {
         font-size: 30px;
     }
