@@ -255,8 +255,8 @@
 @media (min-width: 480px) and (max-width: 767px) {
     .welcome_area,
     .single-hero-slide {
-        height: 800px;
-        border-top: 10%;
+        height: 900px;
+        
     }
     .clients-logo-area > a > img {
         max-width: 75px;
