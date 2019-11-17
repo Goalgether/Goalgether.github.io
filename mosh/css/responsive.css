@@ -252,7 +252,7 @@
     }
 }
 
-@media (min-width: 200px) and (max-width: 767px) {
+@media (min-width: 480px) and (max-width: 767px) {
     .welcome_area,
     .single-hero-slide {
         height: 800px;
@@ -266,22 +266,6 @@
     }
     .mosh-service-slides{
         padding-top: 200px;
-    }
-}
-@media (min-width: 0px) and (max-width: 480px) {
-    .welcome_area,
-    .single-hero-slide {
-        height: 10000px;
-        padding-top: 2000px;
-    }
-    
-    .clients-logo-area > a > img {
-        max-width: 75px;
-        height: auto;
-        margin: 0 15px;
-    }
-    .mosh-service-slides{
-        padding-top: 2000px;
     }
 }
 
