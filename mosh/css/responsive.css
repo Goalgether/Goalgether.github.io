@@ -256,7 +256,7 @@
     .welcome_area,
     .single-hero-slide {
         height: 800px;
-        padding-top: 100px;
+        padding-top: 50px;
     }
     
     .clients-logo-area > a > img {
@@ -273,7 +273,7 @@
     .welcome_area,
     .single-hero-slide {
         height: 900px;
-        padding-top: 200px;
+        padding-top: 100px;
     }
     .mosh-service-slides{
         padding-top: 200px;
