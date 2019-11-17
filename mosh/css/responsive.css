@@ -268,12 +268,28 @@
         padding-top: 200px;
     }
 }
+@media (min-width: 0px) and (max-width: 480px) {
+    .welcome_area,
+    .single-hero-slide {
+        height: 800px;
+        padding-top: 200px;
+    }
+    
+    .clients-logo-area > a > img {
+        max-width: 75px;
+        height: auto;
+        margin: 0 15px;
+    }
+    .mosh-service-slides{
+        padding-top: 200px;
+    }
+}
 
 @media (min-width: 576px) and (max-width: 767px) {
     .welcome_area,
     .single-hero-slide {
         height: 900px;
-        padding-top: 100px;
+        padding-top: 200px;
     }
     .mosh-service-slides{
         padding-top: 200px;
