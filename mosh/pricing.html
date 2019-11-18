@@ -111,17 +111,294 @@
 
     <!-- ***** Portfolio Area Start ***** -->
     <section class="mosh-portfolio-area section_padding_100">
-        <div class="container">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 	
+            <style>
+            
+               *{
+                   box-sizing: border-box;
+                   margin: 0;
+                   padding: 0;
+               }
+               
+               body{
+                   font-family: 'Roboto', sans-serif;
+               }
+           
+               .container{
+                   display: flex;
+                   flex-direction: row;
+                   flex-wrap: wrap;
+                   justify-content: center;
+                   
+               }
+               
+               .container .pricing-table{
+                   display: block;
+                   padding: 20px;
+                   background: #ccc;
+                   overflow: hidden;
+                   width: 300px;
+                   margin: 10px;
+                   border-radius: 3px;
+                   box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
+                   transform: scale(1);
+                   transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+               }
+               
+               .container .pricing-table:nth-child(1){
+                   background-image: linear-gradient(135deg, #ffffff 10%, #ffffff 100%);
+               }
+               
+               .container .pricing-table:nth-child(2){
+                   background-image: linear-gradient(135deg, #ffffff 10%, #ffffff 100%);
+               }
+               .container .pricing-table:nth-child(3){
+                   background-image: linear-gradient(135deg, #ffffff 10%, #ffffff 100%);
+               }
+               
+               
+               .container .pricing-table:hover{
+                   transform: scale(1.2);
+                   z-index: 100;
+               }
+               
+               .pricing-table .icon{
+                   display: block;
+                   width: 70px;
+                   height: 70px;
+                   background: #4A7AEC;
+                   text-align: center;
+                   line-height: 70px;
+                   font-size: 2.2em;
+                   margin: 20px auto;
+                   border-radius: 50px;
+                   box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+                   
+               }
+               
+               .pricing-table .icon span{
+                   transform: scale(1);
+                   transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+               }
+               
+               
+               .pricing-table .type-01{
+                   color: #ffffff;
+                   
+               }
+               
+               
+               .pricing-table .type-02{
+                   color: #ffffff;
+                   
+               }
+               
+               .pricing-table .type-03{
+                   color: #ffffff;
+                   
+               }
+               
+               .heading{
+                   color: #4A7AEC;
+                   text-align: center;
+                   text-transform: capitalize;
+                   font-weight: lighter;
+                   padding: 10px;
+                   font-size: 1.2em;
+               }
+               
+               .service-price{
+                   color: #4A7AEC;
+                   text-align: center;
+                   font-size: 3em;		
+                   
+               }
+               
+               .service-price .dollar-sign{
+                   font-size: 0.6em;
+                   margin-left: -10px;
+                   
+               }
+               
+               .features-list{
+                   list-style: none;
+                   display: block;
+                   margin: 20px auto;
+                   width: 80%;
+                   
+               }
+               
+               .features-list li{
+                   color: #4A7AEC;
+                   text-align: center;
+                   display: block;
+                   text-transform: capitalize;
+                   font-weight: lighter;
+                   font-size: 0.9em;
+                   height: 30px;
+                   line-height: 30px;
+               }
+               
+               .order-button{
+                   border: none;
+                   display: block;
+                   width: 70%;
+                   height: 40px;
+                   margin: 5px auto;
+                   border-radius: 50px;
+                   box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
+                   font-family: tahoma;
+                   text-transform: capitalize;
+                   color: #ffffff;
+                   background: #4A7AEC;
+                   cursor: pointer;
+                   
+               }
+               
+               
+               .order-button:focus{
+                   outline: none;
+               }
+               
+               
+               
+               
+            
+           </style>
+            <div class="container">
+ 		
+                    <div class="pricing-table">
+                        <div class="icon type-02">
+                            <span class="fa fa-edit"></span>
+                        </div>
+                        <h3 class="heading">Free Membership</h3>
+                        <h1 class="service-price">
+                            0
+                            <sup class="dollar-sign">$</sup>
+                        </h1>
+                        
+                        <ul class="features-list">
+                            <li>
+                                <i class="fa fa-star"></i>
+                                Gain XP
+                            </li>
+                            
+                            <li>
+                                <i class="fa fa-bars"></i>
+                                Access to standard goals
+                            </li>
+                            
+                             <li>
+                                <i class="fa fa-tag"></i>
+                                Rewards
+                            </li>
+                            
+                            
+                            <li>
+                                <i class="fa fa-comment"></i>
+                                Standard Support
+                            </li>
+                            
+                           <li>
+                               <i class="fa fa-group"></i>
+                               Group size 1-6
+                           </li>
+                       
+                        </ul>
+                        
+                        <button class="order-button">
+                            Download the app!
+                        </button>
+                 
+                    </div>
+                    
+                    <div class="pricing-table">
+                        <div class="icon type-03">
+                            <span class="fa fa-certificate"></span>
+                        </div>
+                        <h3 class="heading">Premium Membership</h3>
+                        <h1 class="service-price">
+                            15
+                            <sup class="dollar-sign">$</sup>
+                        </h1>
+                        
+                        <ul class="features-list">
+                           <li>
+                               <i class="fa fa-star"></i>
+                               Gain XP
+                           </li>
+                                   
+                           <li>
+                               <i class="fa fa-bars"></i>
+                               Access to standard goals
+                           </li>
+                                   
+                           <li>
+                               <i class="fa fa-tag"></i>
+                               Rewards
+                           </li>
+                                   
+                                   
+                           <li>
+                               <i class="fa fa-comment"></i>
+                               Standard Support
+                           </li>
+           
+                           <li>
+                               <i class="fa fa-group"></i>
+                               Group size 1-6
+                           </li>
+           
+                            <li>
+                                <i class="fa fa-level-up"></i>
+                                Gain more XP per goal
+                            </li>
+                            
+                            <li>
+                                <i class="fa fa-plus"></i>
+                                Access to exclusive goals
+                            </li>
+                            
+                             <li>
+                                <i class="fa fa-trophy"></i>
+                                Greater rewards
+                            </li>
+                            
+                            
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                Live Support
+                            </li>
+                            
+                            <li>
+                               <i class="fa fa-user-plus"></i>
+                               Increased group size 7+
+                           </li>
+                       
+                        </ul>
+                        
+                        <button class="order-button">
+                            Buy now!
+                        </button>
+                 
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="mosh-projects-menu text-center">
                         <div class="portfolio-menu ">
-                            <!--<p class="active" data-filter="*">All</p>-->
+                            <p class="active" data-filter="*">All</p>
                             <p style="font-size: 20px;" class ="btn mosh-btn" data-filter=".gd">Free Membership</p>
                             <p style="font-size: 20px;" class = "btn mosh-btn"    data-filter=".bi">Premium Membership</p>
-                            <!--<p data-filter=".pho">Photography</p>
+                            <p data-filter=".pho">Photography</p>
                             <p data-filter=".wd">Web Design</p>
-                            <p data-filter=".pc">Printing Colaterall</p>-->
+                            <p data-filter=".pc">Printing Colaterall</p>
                         </div>
                     </div>
                 </div>
@@ -129,7 +406,7 @@
         </div>
 
         <div class="mosh-portfolio">
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item gd">
                 <img src="img/portfolio-img/1.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -139,7 +416,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item bi">
                 <img src="img/portfolio-img/2.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -149,7 +426,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item gd bi">
                 <img src="img/portfolio-img/3.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -159,7 +436,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item pho">
                 <img src="img/portfolio-img/4.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -169,7 +446,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item pho">
                 <img src="img/portfolio-img/5.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -179,7 +456,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item wd pc">
                 <img src="img/portfolio-img/6.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -189,7 +466,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item wd">
                 <img src="img/portfolio-img/7.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -199,7 +476,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item pc">
                 <img src="img/portfolio-img/8.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -209,7 +486,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item pc">
                 <img src="img/portfolio-img/9.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -219,7 +496,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item pc">
                 <img src="img/portfolio-img/10.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -229,7 +506,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item pc">
                 <img src="img/portfolio-img/11.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -239,7 +516,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Single gallery Item Start -->
+             Single gallery Item Start 
             <div class="single_gallery_item pc">
                 <img src="img/portfolio-img/12.jpg" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
@@ -249,7 +526,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Discover More btn -->
         <div class="col-12 text-center mt-100">
